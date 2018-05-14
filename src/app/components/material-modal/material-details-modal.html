@@ -8,7 +8,7 @@
             <h2>{{ material.name }}</h2>
           </mat-list-item>
           <mat-divider></mat-divider>
-          <mat-list-item>-description-</mat-list-item>
+          <mat-list-item>{{ material.id }}</mat-list-item>
           <mat-divider></mat-divider>
           <mat-list-item>
             <mat-chip *ngFor="let tag of material.tags" class="material-list-chip">{{ tag }}</mat-chip>
@@ -24,7 +24,7 @@
           <mat-divider></mat-divider>
         </mat-list>
       </div>
-      <img class="imgClm" [src]="material.gallery_image" alt="{{ material.name }}">      
+      <img class="imgClm" [src]="material.gallery_image" alt="{{ material.name }}">
 
     </div>
   </div>

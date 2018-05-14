@@ -31,7 +31,7 @@ import { MaterialService } from '../app/services/material.service';
 import { MaterialModalComponent, DialogOverviewExampleDialog } from './components/material-modal/material-modal.component';
 
 const appRoutes: Routes = [
-  { path: 'modal/:id', component: MaterialModalComponent}
+  { path: 'material/:id', component: MaterialModalComponent}
 ];
 
 @NgModule({

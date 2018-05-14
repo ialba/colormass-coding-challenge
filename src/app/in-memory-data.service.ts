@@ -151,14 +151,6 @@ export class InMemoryDataService implements InMemoryDbService {
         tags: ["Paid", "Tag2", "tag 3"],
         state: "completed",
         gallery_image: "assets/images/shader-balls/mat0020.jpg"
-      },
-      {
-        id: 271,
-        name: "Bellini Pattern Cream",
-        article_id : "belB 14",
-        tags: ["Paid", "Tag2", "tag 3"],
-        state: "completed",
-        gallery_image: "assets/images/shader-balls/mat0021.jpg"
       }
 
     ];
