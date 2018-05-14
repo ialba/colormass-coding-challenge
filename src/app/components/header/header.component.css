@@ -1,0 +1,22 @@
+
+
+.logo{
+  height: 26px;
+  margin-right: 10px;
+}
+
+.docs-navbar-header  {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 16px 16px;
+  background: #3E444F;
+
+}
+
+.flex-spacer {
+  flex-grow: 1;
+}
+.unselected{
+  color: rgba(255,255,255,.3);
+}

@@ -1,0 +1,10 @@
+<mat-card class="material-card" [routerLink]="['/modal', material.id]">
+  <img mat-card-image [src]="material.gallery_image" alt="{{ material.name }}">
+  <span class="matId">{{material.id}}</span>
+  <mat-chip-list>
+    <mat-chip *ngFor="let tag of material.tags" class="material-list-chip">{{ tag }}</mat-chip>
+  </mat-chip-list>
+  <mat-card-content>
+    <p>{{ material.name }}</p>
+  </mat-card-content>
+</mat-card>

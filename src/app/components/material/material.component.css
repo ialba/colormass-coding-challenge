@@ -1,0 +1,27 @@
+.material-card{
+  max-width: 200px;
+  float: left;
+  margin: 10px;
+}
+
+.matId{
+  position: absolute;
+  top: 235px;
+  left: 0;
+  background: white;
+  font-size: 10px;
+  padding: 0 5px 0 5px;
+}
+
+mat-chip.material-list-chip{
+  background: green !important;
+  color: white !important;
+  border-radius: 3px !important;
+  padding: 0 5px 0 5px;
+  font-size: 10px;
+}
+
+mat-card-content{
+  margin-top: 15px;
+  
+}

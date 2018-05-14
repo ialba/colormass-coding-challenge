@@ -1,0 +1,19 @@
+<section id="content">
+  <div class="container content">
+    <mat-tab-group [selectedIndex]="4">
+      <mat-tab disabled label="New">
+      </mat-tab>
+      <mat-tab disabled label="Scanning">
+      </mat-tab>
+      <mat-tab disabled label="Image Processing">
+      </mat-tab>
+      <mat-tab disabled label="Shadding">
+      </mat-tab>
+      <mat-tab label="Completed" class="content">
+        <app-material *ngFor="let material of materials"
+          [material]="material">
+        </app-material>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</section>
